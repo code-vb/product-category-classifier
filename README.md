@@ -31,18 +31,15 @@ Character n-grams worked especially well here because product titles contain mod
 
 ## Project structure
 
-```text
-product-category-classifier/
-├── data/
-│   └── products.csv
+```product-category-classifier/
 ├── models/
 │   └── product_category_model.pkl
-├── notebooks/
-│   └── product_category_classification.ipynb
-├── train_model.py
 ├── predict_category.py
+├── product_category_classification.ipynb
+├── products.csv
+├── README.md
 ├── requirements.txt
-└── README.md
+└── train_model.py
 ```
 
 ## How to run the project
